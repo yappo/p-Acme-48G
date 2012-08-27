@@ -1,14 +1,30 @@
 # NAME
 
-Acme::48G -
+Acme::48G - your module
 
 # SYNOPSIS
 
+    use strict;
+    use warnings;
     use Acme::48G;
+    
+
+    sub AikaTada      { print "らぶたん\n" }
+    sub AkiTakajyo     { print "あきちゃ\n" }
+    sub HarukaNakagawa { print "元はるごん\n" }
+    sub SaeMiyazawa    { print "さえちゃん\n" }
+    sub MariyaSuzuki   { print "まりやんぬ\n" }
+    sub AnnaIshida     { print "あんにゃ\n" }
+    sub RieKitahara    { print "きたえりえ\n" }
+    sub YuiYokoyama    { print "ゆいはん\n" }
+
+    AkiTakajyo;
+    Acme::48G->sokaku;
+    AkiTakajyo; # 組閣ed
 
 # DESCRIPTION
 
-Acme::48G is
+Acme::48G is your module.
 
 # AUTHOR
 
